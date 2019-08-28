@@ -19,7 +19,7 @@ export default function Resume() {
       </div>
       <div>
         <h3>Technical Skills</h3><hr/>
-        <p>JavaScript, Node, Git, HTML, CSS, SQL, Postgres, Mongo, Mongoose, Ruby, React. Microsoft Suite, G-Suite</p>
+        <p>JavaScript, Node, Git, HTML, CSS, SQL, Postgres, Mongo, Mongoose, Ruby, React, Microsoft Suite, G-Suite</p>
       </div>
       <div>
         <h3>Skills</h3><hr/>
