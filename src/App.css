@@ -26,4 +26,11 @@ body, .App {
   padding-top: 50px;
 }
 
+.skills-container, p {
+  padding-top: 60px;
+  display: inline-block;
+}
+
+
+
 

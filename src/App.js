@@ -2,6 +2,7 @@ import React from 'react';
 import About from './About'
 import Resume from './Resume';
 import Skills from './Skills';
+import Game from './Game';
 import axios from 'axios';
 import './App.css';
 import {
@@ -26,6 +27,7 @@ var NavDropdown = require("react-bootstrap/NavDropdown");
             <Nav.Link as={Link} to="/resume">Resume</Nav.Link>
             <Nav.Link as={Link} to="/skills">Skills</Nav.Link>
             <Nav.Link as={Link} to="/about">About</Nav.Link>
+            <Nav.Link as={Link} to="/game">Game</Nav.Link>
             <NavDropdown title="Projects" id="collasible-nav-dropdown">
               <NavDropdown.Item as={Link} to="/repos">PROJECT.NAME</NavDropdown.Item>
             </NavDropdown>
@@ -41,6 +43,7 @@ var NavDropdown = require("react-bootstrap/NavDropdown");
       <Route exact path="/about" render = { () => <About /> } />
       <Route exact path="/resume" render = { () => <Resume /> } />
       <Route exact path="/skills" render = { () => <Skills /> } />
+      <Route exact path="/game" render = { () => <Game /> } />
     </Router>
   );
 }
