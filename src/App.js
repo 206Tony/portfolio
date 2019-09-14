@@ -57,17 +57,17 @@ var NavDropdown = require("react-bootstrap/NavDropdown");
       <Route exact path="/skills" render = { () => <Skills /> } />
       <Route exact path="/contact" render = { () => <Contact /> } />
     <div className="home-page-projects">
-      <div className="connect-4">
-        <a href="https://aqueous-dawn-50169.herokuapp.com/">Connect 4</a><br/>
+      <div className="app">
+        <a href="https://aqueous-dawn-50169.herokuapp.com/"> Connect 4
         <img src={Connect4} alt="connect4" 
                   style={{width: 600,
-                          height: 350 }} />
+                          height: 350 }} /></a>
       </div>
-      <div className="marvel">
-        <a href="https://mighty-forest-98512.herokuapp.com/">Hero Collection</a><br/>
+      <div className="app">
+        <a href="https://mighty-forest-98512.herokuapp.com/">Hero Collection
         <img src={marvel} alt="marvel-app" 
                   style={{width: 600,
-                          height: 350 }} />
+                          height: 350 }} /></a>
       </div>
     </div>
     </Router>
