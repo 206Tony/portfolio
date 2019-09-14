@@ -31,11 +31,15 @@ body, .App {
   display: inline-block;
 }
 
-.my-pic, img {
+.my-pic {
   display: inline;
-  width: 300px;
-  height: 400px;
 }
 
+.home-page-projects {
+  color: black;
+  margin-top: 50px;
+  width: 400px;
+  height: 250px;
+}
 
 

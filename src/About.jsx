@@ -6,7 +6,9 @@ export default function About() {
     <div className="about-me">
       <h1>About Me</h1>
       <div className="my-pic">
-        <img src={IMG_0264}  alt="AZardis"/>
+        <img src={IMG_0264}  alt="AZardis"
+                  style={{width: 300,
+                    height: 400 }} />
       </div><br/>
       <p>My name is Anthony Zardis I am a junior web developer!</p>
       <p>Me PacMan</p>
