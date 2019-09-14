@@ -11,6 +11,8 @@ import {
   Route,
   Link 
 } from 'react-router-dom';
+import Connect4 from './Connect4.png';
+import marvel from './marvel.png';
 
 function App() {
 var Nav = require('react-bootstrap/Nav');
@@ -29,7 +31,7 @@ var NavDropdown = require("react-bootstrap/NavDropdown");
   return (
     <Router>
       <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Navbar.Brand as={Link} to="/home">AZ the Dev</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/">AZ the Dev</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
@@ -54,6 +56,20 @@ var NavDropdown = require("react-bootstrap/NavDropdown");
       <Route exact path="/resume" render = { () => <Resume /> } />
       <Route exact path="/skills" render = { () => <Skills /> } />
       <Route exact path="/contact" render = { () => <Contact /> } />
+    <div className="home-page-projects">
+      <div className="connect-4">
+        <a href="https://aqueous-dawn-50169.herokuapp.com/">Connect 4</a><br/>
+        <img src={Connect4} alt="connect4" 
+                  style={{width: 600,
+                          height: 350 }} />
+      </div>
+      <div className="marvel">
+        <a href="https://mighty-forest-98512.herokuapp.com/">Hero Collection</a><br/>
+        <img src={marvel} alt="marvel-app" 
+                  style={{width: 600,
+                          height: 350 }} />
+      </div>
+    </div>
     </Router>
   );
 }
