@@ -1,8 +1,8 @@
 import React from 'react';
 import Connect4 from './Connect4.png';
 import marvel from './marvel.png';
-import CocktailTime from './CocktailTime.png';
-import Lego from './Lego.png';
+//import CocktailTime from './CocktailTime.png';
+//import Lego from './Lego.png';
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
                   style={{width: 600,
                           height: 350 }} />
       </div>
-      <div className="cocktail-time">
+      {/* <div className="cocktail-time">
         <a href="https://aqueous-dawn-50169.herokuapp.com/">Cocktail Ime</a><br/>
         <img src={CocktailTime} alt="cocktails" 
                   style={{width: 600,
@@ -29,7 +29,7 @@ export default function Home() {
         <a href="https://aqueous-dawn-50169.herokuapp.com/">Lego My Bricks</a><br/>
         <img src={Lego} alt="legos" 
                   style={{width: 600,
-                          height: 350 }} />
+                          height: 350 }} /> */}
       </div>
     </div>
   )
