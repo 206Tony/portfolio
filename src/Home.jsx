@@ -30,7 +30,7 @@ export default function Home() {
         <img src={Lego} alt="legos" 
                   style={{width: 600,
                           height: 350 }} /> */}
-      </div>
+      {/* </div> */}
     </div>
   )
 }
