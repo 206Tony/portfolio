@@ -2,7 +2,7 @@ import React from 'react';
 import Connect4 from './Connect4.png';
 import marvel from './marvel.png';
 //import CocktailTime from './CocktailTime.png';
-//import Lego from './Lego.png';
+import LegoPic from './LegoPic.png';
 
 export default function Home() {
   return (
@@ -27,7 +27,7 @@ export default function Home() {
       </div>
       <div className="lego">
         <a href="https://thawing-reef-47819.herokuapp.com/">Lego My Bricks</a><br/>
-        <img src={Lego} alt="legos" 
+        <img src={LegoPic} alt="legos" 
                   style={{width: 600,
                           height: 350 }} /> 
       </div>
