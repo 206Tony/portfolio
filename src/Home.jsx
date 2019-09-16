@@ -24,7 +24,7 @@ export default function Home() {
         <img src={CocktailTime} alt="cocktails" 
                   style={{width: 600,
                           height: 350 }} />*/}
-      </div>
+      {/* </div> */}
       <div className="lego">
         <a href="https://thawing-reef-47819.herokuapp.com/">Lego My Bricks</a><br/>
         <img src={LegoPic} alt="legos" 
