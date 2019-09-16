@@ -1,5 +1,6 @@
 body, .App {
   text-align: center;
+  margin-top: 80px;
   background-image: url('https://images.unsplash.com/photo-1538097304804-2a1b932466a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80');
   background-attachment: fixed;
   background-size: cover;
@@ -13,21 +14,12 @@ body, .App {
   padding-top: 50px;
 }
 
-.resume-header {
-  text-align: center;
-}
-
 .resume-body {
   text-align: left;
   margin: 1%;
 }
 
-.skills-container {
-  padding-top: 50px;
-}
-
 .skills-container, p {
-  padding-top: 60px;
   display: inline-block;
 }
 
@@ -35,10 +27,9 @@ body, .App {
   display: inline;
 }
 
-#root, .home-page-projects {
+.home-page-projects {
   display: flex;
-  margin-top: 30px;
-  text-align: center;
+  justify-content: space-between;
   color: black;
   width: 600px;
   height: 400px;

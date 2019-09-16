@@ -11,8 +11,6 @@ import {
   Route,
   Link 
 } from 'react-router-dom';
-import Connect4 from './Connect4.png';
-import marvel from './marvel.png';
 
 function App() {
 var Nav = require('react-bootstrap/Nav');
@@ -44,32 +42,18 @@ var NavDropdown = require("react-bootstrap/NavDropdown");
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link href="https://www.linkedin.com/in/anthony-zardis-660696114/">LinkedIn</Nav.Link>
+            <Nav.Link href="https://www.linkedin.com/in/anthony-zardis/">LinkedIn</Nav.Link>
             <Nav.Link eventKey={2} as={Link} to="/Instgram">
               InstaGram
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      <Route exact path="/home" render = { () => <Home /> } />
+      <Route exact path="/" render = { () => <Home /> } />
       <Route exact path="/about" render = { () => <About /> } />
       <Route exact path="/resume" render = { () => <Resume /> } />
       <Route exact path="/skills" render = { () => <Skills /> } />
       <Route exact path="/contact" render = { () => <Contact /> } />
-    <div className="home-page-projects">
-      <div className="app">
-        <a href="https://aqueous-dawn-50169.herokuapp.com/"> Connect 4
-        <img src={Connect4} alt="connect4" 
-                  style={{width: 600,
-                          height: 350 }} /></a>
-      </div>
-      <div className="app">
-        <a href="https://mighty-forest-98512.herokuapp.com/">Hero Collection
-        <img src={marvel} alt="marvel-app" 
-                  style={{width: 600,
-                          height: 350 }} /></a>
-      </div>
-    </div>
     </Router>
   );
 }
