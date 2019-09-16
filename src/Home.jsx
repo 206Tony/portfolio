@@ -23,14 +23,14 @@ export default function Home() {
         <a href="https://aqueous-dawn-50169.herokuapp.com/">Cocktail Ime</a><br/>
         <img src={CocktailTime} alt="cocktails" 
                   style={{width: 600,
-                          height: 350 }} />
+                          height: 350 }} />*/}
       </div>
       <div className="lego">
-        <a href="https://aqueous-dawn-50169.herokuapp.com/">Lego My Bricks</a><br/>
+        <a href="https://thawing-reef-47819.herokuapp.com/">Lego My Bricks</a><br/>
         <img src={Lego} alt="legos" 
                   style={{width: 600,
-                          height: 350 }} /> */}
-      {/* </div> */}
+                          height: 350 }} /> 
+      </div>
     </div>
   )
 }
