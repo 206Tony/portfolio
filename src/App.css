@@ -1,10 +1,30 @@
 body, .App {
   text-align: center;
-  margin-top: 80px;
-  background-image: url('https://images.unsplash.com/photo-1538097304804-2a1b932466a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80');
+  align-content: center;
+  margin-top: 100px;
+  background-image: url('https://images.unsplash.com/photo-1538097304804-2a1b932466a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1850&q=400');
   background-attachment: fixed;
   background-size: cover;
 }
+
+.projects, .apps {
+  display: grid;
+  margin-left: 8%;
+  margin-right: 8%;
+  grid-gap: 15px 15px;
+  grid-template-areas: "item item"
+                       "item item"
+                       "item item"
+                       "item item";
+  color: black;
+}
+
+/* .apps {
+  display: grid;
+  align-content: center;
+  justify-content: space-around;
+  padding: 10px;
+} */
 
 .resume-container {
   margin-left: 10%;
@@ -27,18 +47,5 @@ body, .App {
   display: inline;
 }
 
-.home-page-projects {
-  display: flex;
-  justify-content: space-between;
-  color: black;
-  width: 600px;
-  height: 400px;
-}
-
-.app {
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
-}
 
 

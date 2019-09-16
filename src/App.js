@@ -37,15 +37,13 @@ var NavDropdown = require("react-bootstrap/NavDropdown");
             <Nav.Link as={Link} to="/skills">Skills</Nav.Link>
             <Nav.Link as={Link} to="/about">About</Nav.Link>
             <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
-            <NavDropdown title="Projects" id="collasible-nav-dropdown">
+            {/* <NavDropdown title="Projects" id="collasible-nav-dropdown">
               <NavDropdown.Item as={Link} to="/repos">PROJECT.NAME</NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
           </Nav>
           <Nav>
             <Nav.Link href="https://www.linkedin.com/in/anthony-zardis/">LinkedIn</Nav.Link>
-            <Nav.Link eventKey={2} as={Link} to="/Instgram">
-              InstaGram
-            </Nav.Link>
+            <Nav.Link href="https://www.github.com/206tony/">GitHub</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

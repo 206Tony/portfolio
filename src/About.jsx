@@ -5,7 +5,7 @@ export default function About() {
   return (
     <>
       <div>
-        <h1>About Me</h1>
+        <h1>About Anthony</h1>
         <div className="my-pic">
           <img src={Azardis}  
               alt="AZardis"
