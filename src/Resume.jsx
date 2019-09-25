@@ -6,7 +6,8 @@ export default function Resume() {
     <div className="resume-container">
       <div className="resume-header">
         <h1>ANTHONY ZARDIS</h1>
-        <h3>anthonyzardis@gmail.com | 206.313.8631 | https://www.github.com/206tony | https://www.linkedin.com/in/anthony-zardis | https://www.azardis.dev/</h3>
+        <h3>anthonyzardis@gmail.com | 206.313.8631</h3><br/>
+        <h3>www.github.com/206tony  |  www.linkedin.com/in/anthony-zardis  |  www.azardis.dev</h3>
       </div>
     <div className='resume-body'>
       <div>
