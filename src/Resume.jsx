@@ -6,7 +6,7 @@ export default function Resume() {
     <div className="resume-container">
       <div className="resume-header">
         <h1>ANTHONY ZARDIS</h1>
-        <h3>anthonyzardis@gmail.com | 206.313.8631| https://www.github.com/206tony | https://www.linkedin.com/in/anthony-zardis | https://www.azardis.dev/</h3>
+        <h3>anthonyzardis@gmail.com | 206.313.8631 | https://www.github.com/206tony | https://www.linkedin.com/in/anthony-zardis | https://www.azardis.dev/</h3>
       </div>
     <div className='resume-body'>
       <div>
@@ -19,22 +19,45 @@ export default function Resume() {
       </div>
       <div>
         <h3>Technical Skills</h3><hr/>
-        <p>JavaScript, Node, Git, HTML, CSS, SQL, Postgres, Mongo, Mongoose, Ruby, React, Microsoft Suite, G-Suite</p>
+        <p>JavaScript, React, Node, Git, HTML, CSS, SQL, Postgres, Mongo, Mongoose, Ruby, Python, Typescript, </p>
       </div>
+
+      <div>
+        <h3>General Assembly Projects</h3>
+      </div>
+      <div>
+        <h3>Connect 4 - JavaScript, DOM, CSS, HTML</h3>
+        <p>A front end two player game. A childhood favorite for testing your wit.</p>
+      </div>
+      <div>
+        <h3> Marvel Fan - Node, EJS, Axios, Bcrypt, Sequelize, Express, Helmet, MD5, Passport, Method-Override</h3> 
+        <p>A fullstack Comic Book site for finding favorite characters and comics</p> 
+      </div>
+      <div>
+        <h3>CockTail-Time – React, Node, Axios, Bcrypt, Express, JWT, Mongoose, Helmet, DotEnv</h3>
+        <p>A fullstack group project where you can learn to make your favorite drinks</p>
+      </div>
+      <div>
+        <h3>Lego-WishList – React, Node, Axios, Bootstrap, React-Router, Mongoose, JWT, Express, Bcrypt</h3>
+        <p>A fullstack app where a user can search for sets and find pieces they are missing.</p>
+      </div>    
+      <div>
+        <h3>Education</h3><hr/>
+        <p>Bachelor of Arts (B.A.), Supply Chain Management | Central Washington University, 2016</p>
+      </div>
+      <div>
+        <h3>Certifications</h3><hr/>
+        <p>Software Engineering Immersive | General Assembly, 2019</p>
+        <p>Completed a 12-week training program for software engineering in Seattle, WA. 
+            The course was focused on full stack development, where we coded both front and 
+            back end applications with modern frameworks, libraries and languages.</p>
+        <p>Software Development Immersive | Bloc, 2017</p>
+      </div>
+      <div>
       <div>
         <h3>Skills</h3><hr/>
         <p>Project Management • Customer Service • Budget Management • Training & Development • Hydraulic System Design • Payroll • Vendor Management • Customer Experience • Operations Coordination • Team Management • Journeyman Machinist • Accounts Receivable/Payable • Custom Fabrication • Financial Reporting</p>
       </div>
-      <div>
-        <h3>Education</h3><hr/>
-        <p>Central Washington University, 2016 Bachelors, Supply Chain Management </p>
-      </div>
-      <div>
-        <h3>Certifications</h3><hr/>
-        <p>Software Development Immersive | Bloc, 2017</p>
-        <p>Software Engineering Immersive | General Assembly, 2019</p>
-      </div>
-      <div>
         <h3>Experience</h3><hr/>
         <h5>Puget Sound Hydraulics</h5>
         <h5>Project Manager, 2008-2016</h5>
@@ -83,23 +106,3 @@ export default function Resume() {
     </>
   )
 }
-
-
-// anthonyzardis@gmail.com | 206.313.8631|github.com/206tony www.linkedin.com/in/anthony-zardis-660696114/ | https://www.azardis.dev/
-// Summary
-// Resourceful entry level Software Engineer, enthusiastic about developing practical and time saving software solutions. Adept at identifying issues with existing software and creating innovate new software programs. A creative and talented leader; committed to working cross-functionally with all stakeholders to deliver meticulous execution of the final project.
-// Technical Skills
-// JavaScript, Node, Git, HTML, CSS, SQL, Postgresql, Mongo, Mongoose, Ruby, React, Typescript, Python, Bootstrap
-// Projects
-// Connect 4 - JavaScript, DOM, CSS, HTML
-// A front end two player game. A childhood favorite for testing your wit.
-// Marvel Fan - Node, EJS, Axios, Bcrypt, Sequelize, Express, Helmet, MD5, Passport, Method-Override A fullstack Comic Book site for finding favorite characters and comics
-// CockTail-Time – React, Node, Axios, Bcrypt, Express, JWT, Mongoose, Helmet, DotEnv A fullstack group project where you and learn to make your favorite drinks
-// Lego-WishList – React, Node, Axios, Bootstrap, React-Router, Mongoose, JWT, Express, Bcrypt A fullstack app where a user can search for sets and find pieces they are missing.
-// Education
-// Software Engineering Immersive|General Assembly, 2019
-// Completed a 12-week training program for software engineering in Seattle, WA. The course was focused on full stack development, where we coded both front and back end applications with modern frameworks, libraries and languages.
-// Software Development Immersive |Bloc, 2017
-// Bachelor of Arts (B.A.), Supply Chain Management | Central Washington University, 2016
-// Prior Work Skills
-// Project Management • Customer Service • Budget Management • Training & Development • Hydraulic System Design • Vendor Management • Customer Experience • Operations Coordination • Team Management • Journeyman Machinist • Financial Reporting
