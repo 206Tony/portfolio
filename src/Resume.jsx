@@ -23,22 +23,22 @@ export default function Resume() {
       </div>
 
       <div>
-        <h3>General Assembly Projects</h3>
+        <h4>General Assembly Projects</h4>
       </div>
       <div>
-        <h3>Connect 4 - JavaScript, DOM, CSS, HTML</h3>
+        <h5>Connect 4 - JavaScript, DOM, CSS, HTML</h5>
         <p>A front end two player game. A childhood favorite for testing your wit.</p>
       </div>
       <div>
-        <h3> Marvel Fan - Node, EJS, Axios, Bcrypt, Sequelize, Express, Helmet, MD5, Passport, Method-Override</h3> 
+        <h5> Marvel Fan - Node, EJS, Axios, Bcrypt, Sequelize, Express, Helmet, MD5, Passport, Method-Override</h5> 
         <p>A fullstack Comic Book site for finding favorite characters and comics</p> 
       </div>
       <div>
-        <h3>CockTail-Time – React, Node, Axios, Bcrypt, Express, JWT, Mongoose, Helmet, DotEnv</h3>
+        <h5>CockTail-Time – React, Node, Axios, Bcrypt, Express, JWT, Mongoose, Helmet, DotEnv</h5>
         <p>A fullstack group project where you can learn to make your favorite drinks</p>
       </div>
       <div>
-        <h3>Lego-WishList – React, Node, Axios, Bootstrap, React-Router, Mongoose, JWT, Express, Bcrypt</h3>
+        <h5>Lego-WishList – React, Node, Axios, Bootstrap, React-Router, Mongoose, JWT, Express, Bcrypt</h5>
         <p>A fullstack app where a user can search for sets and find pieces they are missing.</p>
       </div>    
       <div>
