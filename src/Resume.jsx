@@ -11,8 +11,8 @@ export default function Resume() {
               <a style={{ color: 'black' }} href="https://www.github.com/206tony/">Github</a>  |  
               <a style={{ color: 'black' }} href="https://www.linkedin.com/in/anthony-zardis">LinkedIn</a>
           </h3>
-        </div>
-        <br/>
+        </div><br/>
+
         <div className='resume-body'>
           <div>
             <h3>Summary</h3><hr/>
@@ -21,12 +21,12 @@ export default function Resume() {
               Adept at identifying issues with existing software and creating innovate new software programs. A creative and talented leader; 
               committed to working cross-functionally with all stakeholders to deliver meticulous execution of the final project.
             </p>
-          </div>
+          </div><br/>
 
           <div>
             <h3>Technical Skills</h3><hr/>
             <p>JavaScript, React, Node, Git, HTML, CSS, SQL, Postgres, Mongo, Mongoose, Ruby, Python, Typescript, Rails </p>
-          </div>
+          </div><br/>
 
           <div>
             <h4>General Assembly Projects</h4><hr/>
@@ -66,7 +66,7 @@ export default function Resume() {
               • Vendor Management • Customer Experience • Operations Coordination • Team Management • Journeyman Machinist • 
               Accounts Receivable/Payable • Custom Fabrication • Financial Reporting
             </p>
-          </div>
+          </div><br/>
 
           <div>
             <h3>Puget Sound Hydraulics | Project Manager, 2008-2016</h3><hr/>

@@ -54,7 +54,12 @@ body, .App {
   width: 80%;
   height: 100%;
   background-color: #ffffff; 
-  padding-top: 50px;
+  padding-top: 10px;
+}
+
+.resume-header {
+  text-align: left;
+  margin: 1%;
 }
 
 .resume-body {
