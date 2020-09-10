@@ -19,6 +19,29 @@ body, .App {
   color: black;
 }
 
+.applink-connect {
+  background-image: url("/static/media/Connect4.505e2657.png");
+  height: 350px;
+  width: 600px;
+}
+
+.applink-marvel {
+  background-image: url("/static/media/Connect4.505e2657.png");
+  height: 350px;
+  width: 600px;
+}
+
+.applink-drinks {
+  background-image: url("/static/media/Connect4.505e2657.png");
+  height: 350px;
+  width: 600px;
+}
+
+.applink-lego {
+  background-image: url("/static/media/Connect4.505e2657.png");
+  height: 350px;
+  width: 600px;
+}
 /* .apps {
   display: grid;
   align-content: center;

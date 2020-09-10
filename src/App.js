@@ -4,7 +4,7 @@ import About from './About'
 import Resume from './Resume';
 import Skills from './Skills';
 import Contact from './Contact';
-import axios from 'axios';
+//import axios from 'axios';
 import './App.css';
 import {
   BrowserRouter as Router,

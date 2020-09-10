@@ -8,29 +8,29 @@ export default function Home() {
   return (
     <>
     <div className="projects">
-      <div className="apps">
-        <a href="https://aqueous-dawn-50169.herokuapp.com/">Connect 4
+      <div className="apps, applink-connect">
+        <a href="https://aqueous-dawn-50169.herokuapp.com/">
         <img src={Connect4} 
              alt="connect4" 
              style={{width: 600,
                      height: 350 }} /></a>
       </div>
-      <div className="apps">
-        <a href="https://mighty-forest-98512.herokuapp.com/">Hero Collection
+      <div className="apps, applink-marvel">
+        <a href="https://mighty-forest-98512.herokuapp.com/">
         <img src={marvel} 
              alt="marvel-app" 
              style={{width: 600,
                      height: 350 }} /></a>
       </div>
-      <div className="apps">
-        <a href="https://desolate-coast-19668.herokuapp.com/">Cocktail Time
+      <div className="apps, applink-drinks">
+        <a href="https://desolate-coast-19668.herokuapp.com/">
         <img src={CocktailTime} 
              alt="cocktails" 
              style={{width: 600,
                      height: 350 }} /></a>
       </div>
-      <div className="apps">
-        <a href="https://thawing-reef-47819.herokuapp.com/">Lego My Bricks
+      <div className="apps, applink-lego">
+        <a href="https://thawing-reef-47819.herokuapp.com/">
         <img src={LegoPic} 
              alt="legos" 
              style={{width: 600,
