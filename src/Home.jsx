@@ -33,7 +33,7 @@ export default function Home() {
         <a href="https://thawing-reef-47819.herokuapp.com/">
         <img src={LegoPic} 
              alt="legos" 
-             style={{width: 600,
+             style={{ width: 600,
                      height: 350 }} /></a>
       </div>
     </div>
